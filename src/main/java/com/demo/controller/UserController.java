@@ -41,6 +41,7 @@ return userServiceImplement.findOneUser(id);
 public void deleteOne(@PathVariable String id)
 {
 userServiceImplement.deleteUser(id);	
+
 }
 
 }
